@@ -3,7 +3,7 @@
 # 文字列
 # abc
 S = input().strip()
-ß
+
 # 整数
 # 123
 N = int(input().strip())
@@ -28,7 +28,7 @@ array = list(map(int, input().strip().split(' ')))
 # ２つの数値
 # 12 34 
 a, b = input().strip().split(' ')
-a, b = [int(a), int(b), int(c)]
+a, b = [int(a), int(b)]
 
 # 行数
 N = int(input().strip())
